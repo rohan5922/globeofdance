@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #6e0085, #ff1ce1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar{
+  min-height: 80vh;
+  background: white;
+  background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 5%;
+  width: 20vh;
+  height: 80vh;
+  border-radius: 2rem;
+}
+
+.mainglass{
+  min-height: 80vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 21%;
+  width: 80vh;
+  height: 80vh;
+  border-radius: 2rem;
+}
+
+.bottomglass{
+  min-height: 80vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 69%;
+  width: 50vh;
+  height: 80vh;
+  border-radius: 2rem;
+
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  display: flex;
+  text-transform: capitalize;
+  text-align: center;
+  padding-left: 25%;
+  padding-top: 5%;
+}
+
+.inglass1{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 15%;
+  left: 9%;
+  width: 65vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  /* align-items: center; */
+}
+
+.inglass2{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 42.5%;
+  left: 9%;
+  width: 65vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  /* align-items: center; */
+}
+
+.inglass3{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 9%;
+  width: 65vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  /* align-items: center; */
+}
+
+.inglass4{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 9%;
+  left: 9%;
+  width: 17vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  align-items: center;
+}
+
+.inglass5{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 40%;
+  left: 9%;
+  width: 17vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  align-items: center;
+}
+
+.inglass6{
+  min-height: 10vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 9%;
+  width: 17vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  align-items: center;
+}
+
+.inglass7{
+  min-height: 15vh;
+  min-width: 5vh;
+  background: white;
+  background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.1));
+  position: absolute;
+  display: flex;
+  top: 15%;
+  left: 9%;
+  width: 41vh;
+  height: 120px;
+  border-radius: 2rem;
+  z-index: 3;
+  align-items: center;
+}
+
+img{
+  align-self: center;
+  padding-left: 40%;
+}
+
+.dp{
+  position: absolute;
+  align-self: right;
+  height: 100px;
+  right:20px ;
+  border-radius: 20px;
+
+}
+
+.play{
+  align-self: center;
+  padding: auto;
+}
+
+h3{
+  text-transform: capitalize;
+  align-self: center;
+  position: absolute;
+  left: 95px;
+  bottom: auto;
+}
+
+.icon{
+  position: absolute;
+  align-self:center;
+  max-height: 80px;
+  right: 17px;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .bottomglass {
+      display: none;
+  }
+}
